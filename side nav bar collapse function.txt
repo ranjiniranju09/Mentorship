@@ -1,0 +1,76 @@
+ <div class="navigation">
+        <ul>
+            <li>
+                <a href="{{ route('dashboardmentor') }}">
+                    <span class="icon"><i class="fas fa-circle-user fa-2xl"></i></span>
+                    <h5><span class="title">Mentor</span></h5>
+                </a>
+            </li>
+            <li class="active">
+                <a href="">
+                    <span class="icon"><i class="fas fa-home"></i></span>
+                    <span class="title">Dashboard</span>
+                </a>
+            </li>
+            <li class="mb-1">
+                <button class="btn btn-toggle align-items-center rounded" data-bs-toggle="collapse" data-bs-target="#home-collapse" aria-expanded="true">
+                Home
+                </button>
+                <div class="collapse show" id="home-collapse" style="">
+                <ul class="btn-toggle-nav list-unstyled fw-normal pb-1 small">
+                    <li><a href="#" class="link-dark rounded">Overview</a></li>
+                    <li><a href="#" class="link-dark rounded">Updates</a></li>
+                    <li><a href="#" class="link-dark rounded">Reports</a></li>
+                </ul>
+                </div>
+            </li>
+            <!-- <li class="dropdown">
+                <a href="#" class="dropdown-toggle" data-bs-toggle="dropdown" aria-expanded="false">
+                    <span class="icon"><i class="fa-solid fa-user"></i></span>
+                    <span class="title">Profile</span>
+                </a>
+                <ul class="dropdown-menu">
+                    <li class="drop"><a class="dropdown-item" href="#">View Profile</a></li>
+                    <li class="drop"><a class="dropdown-item" href="#">Edit Profile</a></li>
+                    <li class="drop"><a class="dropdown-item" href="#">Change Password</a></li>
+                </ul>
+            </li> -->
+
+            <li>
+                <a href="{{ route('menteetaskprogress') }}">
+                    <span class="icon"><i class="fa-solid fa-list"></i></span>
+                    <span class="title">Task</span>
+                </a>
+            </li>
+            <li>
+                <a href="{{ route('mentorresourceadd') }}">
+                    <span class="icon"><i class="fa-solid fa-link"></i></span>
+                    <span class="title">Resources</span>
+                </a>
+            </li>
+            <li>
+                <a href="{{route('mentorjobs')}}">
+                    <span class="icon"><i class="fa-solid fa-briefcase"></i></span>
+                    <span class="title">Jobs</span>
+                </a>
+            </li>
+            <li>
+                <a href="#">
+                    <span class="icon"><i class="fa-solid fa-ticket"></i></span>
+                    <span class="title">Tickets</span>
+                </a>
+            </li>
+            <li>
+                <a href="#">
+                    <span class="icon"><i class="fa-solid fa-certificate"></i></span>
+                    <span class="title">Certificate</span>
+                </a>
+            </li>
+            <li>
+                <a href="#">
+                    <span class="icon"><i class="fa-solid fa-right-from-bracket fa-flip-horizontal"></i></span>
+                    <span class="title">Sign Out</span>
+                </a>
+            </li>
+        </ul>
+    </div>

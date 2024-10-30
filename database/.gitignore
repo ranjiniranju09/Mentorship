@@ -1,0 +1,6 @@
+<<<<<<< HEAD
+*.sqlite*
+=======
+*.sqlite
+*.sqlite-journal
+>>>>>>> 0c87cc8 (mentor2)

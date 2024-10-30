@@ -1,0 +1,17 @@
+php:
+  preset: laravel
+  disabled:
+    - no_unused_imports
+  finder:
+    not-name:
+      - index.php
+<<<<<<< HEAD
+js: true
+=======
+      - server.php
+js:
+  finder:
+    not-name:
+      - webpack.mix.js
+>>>>>>> 0c87cc8 (mentor2)
+css: true
